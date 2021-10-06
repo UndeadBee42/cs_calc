@@ -20,7 +20,6 @@ namespace calc
                     case '/': res = int.Parse(tokens[0]) / int.Parse(tokens[2]); break;
                 }
                 Console.WriteLine(res);
-                
             }
             
         }
