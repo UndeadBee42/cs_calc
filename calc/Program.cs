@@ -6,7 +6,6 @@ namespace calc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("program start");
             bool loop = true;
             while (loop)
             { 
@@ -21,6 +20,9 @@ namespace calc
                     case '/': res = int.Parse(tokens[0]) / int.Parse(tokens[2]); break;
                 }
                 Console.WriteLine(res);
+                Console.WriteLine("quit? Y/N");
+                input = Console.ReadLine();
+                if (input == "Y") { return; }
             }
             
         }
