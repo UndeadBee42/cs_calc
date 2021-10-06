@@ -6,6 +6,7 @@ namespace calc
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("exemple: '10 + 20'");
             bool loop = true;
             while (loop)
             { 
