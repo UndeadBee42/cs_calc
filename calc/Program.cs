@@ -6,7 +6,6 @@ namespace calc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("program start");
             bool loop = true;
             while (loop)
             { 
